@@ -5,16 +5,8 @@ export interface DataStoredInToken {
   _id: string;
 }
 
-export interface TokenData {
-  token: string;
-  expiresIn: number;
-}
-
 export interface RequestWithUser extends Request {
   user: User;
 }
 
-export interface RefreshTokenData {
-  refreshToken: string;
-  expiresIn: number;
-}
+

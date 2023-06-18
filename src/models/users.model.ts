@@ -1,21 +1,20 @@
 import { model, Schema, Document } from 'mongoose';
 import { User } from '@interfaces/users.interface';
 
-const userSchema: Schema = new Schema({
-  email: { type: String, trim: true, index: true, unique: true, sparse: true },
-  password: {
-    type: String,
-    required: true,
+const userSchema: Schema = new Schema(
+  {
+    email: { type: String, trim: true, index: true, unique: true, sparse: true },
+    password: {
+      type: String,
+      required: true,
+    },
+    name: {
+      type: String,
+      default: null,
+    }
   },
-  name: {
-    type: String,
-    default: null,
-  },
-  verify: {
-    type: Boolean,
-    default: false,
-  },
-});
+  { timestamps: true },
+);
 
 userSchema.set('toJSON', {
   transform: (document, returnedObject) => {
