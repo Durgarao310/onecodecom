@@ -74,6 +74,11 @@
             "date": 1672283225867,
             "name": "/home/sai/Desktop/Durga/node-typescript-mongo/src/logs/error/2022-12-29.log",
             "hash": "33dae1809980af20718f439e33aa92f8a010a396c60d95807e2d7fffc69c4aad"
+        },
+        {
+            "date": 1687063876309,
+            "name": "/home/sai/Desktop/Durga/node-typescript-mongo/src/logs/error/2023-06-18.log",
+            "hash": "ba8110f3fb4f5a4c3778b240e452d5db0fb37272a83cd7ddf9039976ff8ef443"
         }
     ],
     "hashType": "sha256"
