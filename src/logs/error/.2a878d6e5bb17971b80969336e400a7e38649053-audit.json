@@ -1,0 +1,80 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/sai/Desktop/Durga/node-typescript-mongo/src/logs/error/.2a878d6e5bb17971b80969336e400a7e38649053-audit.json",
+    "files": [
+        {
+            "date": 1666587288466,
+            "name": "/home/sai/Desktop/Durga/node-typescript-mongo/src/logs/error/2022-10-24.log",
+            "hash": "ef5c7c656666b2bb31bf2d511cfdda02d6670bdfca96df989739a608efcb6e71"
+        },
+        {
+            "date": 1666923313781,
+            "name": "/home/sai/Desktop/Durga/node-typescript-mongo/src/logs/error/2022-10-28.log",
+            "hash": "7493060474fbe5cb5dbbfbc10c6d630b467991b0f950613a9502b69b16da0566"
+        },
+        {
+            "date": 1667010077504,
+            "name": "/home/sai/Desktop/Durga/node-typescript-mongo/src/logs/error/2022-10-29.log",
+            "hash": "aeca9e8cfe6d374962eb1a3377b6d53dc73dac5c2f501c2ce4c42dd3d1caee65"
+        },
+        {
+            "date": 1668336149914,
+            "name": "/home/sai/Desktop/Durga/node-typescript-mongo/src/logs/error/2022-11-13.log",
+            "hash": "ad88130bda9bf66247a0dc8d10bbe1d3ff4baa82ef5b6118e7e7e8c9cb10ad54"
+        },
+        {
+            "date": 1668653434747,
+            "name": "/home/sai/Desktop/Durga/node-typescript-mongo/src/logs/error/2022-11-17.log",
+            "hash": "b609963a366eea10382d369e6a8b5d59768fd723ce8b1bdeaefcfd4af591b04c"
+        },
+        {
+            "date": 1669989090092,
+            "name": "/home/sai/Desktop/Durga/node-typescript-mongo/src/logs/error/2022-12-02.log",
+            "hash": "89d5a69150cd9ae72cc86a0b0fee6b40adb535ccfa2b272e019f9b206eb3c494"
+        },
+        {
+            "date": 1670031944811,
+            "name": "/home/sai/Desktop/Durga/node-typescript-mongo/src/logs/error/2022-12-03.log",
+            "hash": "2b22d1da2acd0230b4f4bd54b55f12e4c36754fb72d7ee2f94cb6e4218ef5df6"
+        },
+        {
+            "date": 1670114499077,
+            "name": "/home/sai/Desktop/Durga/node-typescript-mongo/src/logs/error/2022-12-04.log",
+            "hash": "0f914da5d42132eceeccde334089bf0d474ba1ad7dcbfc9bc9c1da2f5d7d80b1"
+        },
+        {
+            "date": 1670207792261,
+            "name": "/home/sai/Desktop/Durga/node-typescript-mongo/src/logs/error/2022-12-05.log",
+            "hash": "b03f9bf7b68b0d649bbcd7317978d2cb4da6464ac851caad931af59bb3d5d88d"
+        },
+        {
+            "date": 1670293506877,
+            "name": "/home/sai/Desktop/Durga/node-typescript-mongo/src/logs/error/2022-12-06.log",
+            "hash": "03067bdef58cde59c05fbf7cb6c2c6c7ef465c80c2558c40c258c26dbdc59587"
+        },
+        {
+            "date": 1671258193576,
+            "name": "/home/sai/Desktop/Durga/node-typescript-mongo/src/logs/error/2022-12-17.log",
+            "hash": "5f7d6ef47f65e627c7ac99f19414e66161e85595bfb2f0426142e06d1897b941"
+        },
+        {
+            "date": 1671624102194,
+            "name": "/home/sai/Desktop/Durga/node-typescript-mongo/src/logs/error/2022-12-21.log",
+            "hash": "d52b4ecb0b3323ab77b719431ac44069daad77c7a63f987ec606ab02117fc265"
+        },
+        {
+            "date": 1671678420454,
+            "name": "/home/sai/Desktop/Durga/node-typescript-mongo/src/logs/error/2022-12-22.log",
+            "hash": "07fb08cc4f99ba256b461a9bbab6cd15bbe05c6390c654fae59e6556d408b81a"
+        },
+        {
+            "date": 1672283225867,
+            "name": "/home/sai/Desktop/Durga/node-typescript-mongo/src/logs/error/2022-12-29.log",
+            "hash": "33dae1809980af20718f439e33aa92f8a010a396c60d95807e2d7fffc69c4aad"
+        }
+    ],
+    "hashType": "sha256"
+}
