@@ -4,9 +4,7 @@ import App from '@/app';
 import AuthRoute from '@routes/auth.route';
 import IndexRoute from '@routes/index.route';
 import validateEnv from '@utils/validateEnv';
-import { logger } from '@utils/logger';
 import { NODE_ENV, PORT } from '@config';
-
 validateEnv();
 const app = new App([new IndexRoute(), new AuthRoute()]);
 
@@ -31,8 +29,6 @@ io.on('connection', function(socket) {
 });
  
 server.listen(PORT, () => {
-    logger.info(`=================================`);
-    logger.info(`======= ENV: ${NODE_ENV} =======`);
-    logger.info(`🚀 App listening on the port ${PORT}`);
-    logger.info(`=================================`);
+   console.log(`Listening on port ${PORT}`);
+
 });

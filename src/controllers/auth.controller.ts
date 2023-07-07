@@ -20,7 +20,7 @@ class AuthController {
       const headerToken = req.cookies['refreshToken'];
       const bodyToken = req.body.refreshToken;
       req.body.token = bodyToken || headerToken;
-      const accessToken: string = await this.authService.refreshToken(req.body);
+      const accessToken: string = (await this.authService.refreshToken(req.body)).token;
       if (headerToken) {
         const tokenOptions: string = 'accessToken=' + accessToken + ';expires=' + '; Max-Age=' + 60 * 60 + '; HttpOnly; Secure';
         res.setHeader('Set-Cookie', [tokenOptions]);

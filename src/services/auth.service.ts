@@ -10,14 +10,9 @@ import { isEmpty } from '@utils/util';
 class AuthService {
   public users = userModel;
 
+  public async signup(userData: { email: string; password: string }): Promise<any> {}
 
-    public async signup(userData: { email: string; password: string }): Promise<User> {
-
-        
-    }
-
-
-  public async refreshToken(userData: { token: string }): Promise<string> {
+  public async refreshToken(userData: { token: string }): Promise<{ token :string }> {
     if (isEmpty(userData)) throw new HttpException(400, `token missing`);
     const secretKey: string = REFRESH_KEY;
     const verificationResponse = (await verify(userData.token, secretKey)) as DataStoredInToken;
@@ -27,7 +22,7 @@ class AuthService {
     const userId = verificationResponse._id;
     const user = await this.users.findById(userId);
     // const accessToken = this.createIdToken(user);
-    return {token:'sadf'};
+    return { token: 'sadf' };
   }
 
   public async logout(userData: User): Promise<User> {
@@ -38,9 +33,6 @@ class AuthService {
 
     return findUser;
   }
-
-
-
 }
 
 export default AuthService;
